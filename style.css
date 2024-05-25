@@ -83,7 +83,6 @@ ul li:hover{
 
 .about{
     display: flex;
-    background-color: yellow;
     width: 100%;
 }
 
@@ -94,11 +93,31 @@ ul li:hover{
     justify-content: center;
     width: 100%;
     height: 100%;
-    background-color: aqua;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 80px;
 }
+
+.about-content-txt{
+    display: flex;
+}
+
+.about-content-txt img{
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+.about-content-txt2{
+    display: flex;
+}
+
+.about-content-txt2 img{
+    width: 5%;
+    height: 7%;
+    padding-top: 30px;
+    margin-left: 10px;
+}
+
 
 .about-content-cd, .about-content-cd-cd{
     display: flex;
@@ -106,7 +125,6 @@ ul li:hover{
     align-items: center;
     justify-content: center;
     margin: 20px;
-    background-color: blue;
     padding: 10px;
 }
 
