@@ -1,0 +1,75 @@
+:root {
+    --card-height: 300px;
+    --card-width: calc(var(--card-height) / 1.5);
+  }
+  
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 88px;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.nav-bar{
+    display: flex;
+    list-style: none;
+    padding-right: 30%;
+}
+
+
+ul{
+    cursor: pointer;
+}
+
+ul li{
+    padding: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+ul li:hover{
+    color: aliceblue;
+    background-color: blue;
+}
+
+.logo, .btn{
+    padding: 0px 20px;
+}
+
+
+.btn {
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25%;
+    padding: 20px 20px;
+    margin-right: 20px;
+}
+
+.bg-image{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.logo img{
+    padding-top: 25px;
+    width: 40%;
+    height: 50%;
+}
