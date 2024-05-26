@@ -150,7 +150,7 @@ p{
 .logos{
   overflow: hidden;
   padding: 60px 0;
-  background: #919494;
+  background: #e5ca93;
   white-space: nowrap;
 }
 
@@ -375,3 +375,81 @@ button:hover{
   margin-right: 10px;
 }
 
+.footer{
+  background-color: #111;
+}
+
+.footer-container{
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.social-icon{
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.social-icon a i{
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+
+.social-icon a:hover{
+  background-color: #111;
+  transition: 0.5s;
+}
+
+.social-icon a:hover i{
+  color: white;
+  transition: 0.5s;
+}
+
+.footer-navigation{
+  margin: 30px 0;
+}
+
+.footer-navigation ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.footer-navigation ul li a{
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footer-navigation ul li a:hover{
+  opacity: 1;
+}
+
+.footer-btm{
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-btm p{
+  color: white;
+}
+
+.designer{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
