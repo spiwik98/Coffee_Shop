@@ -119,6 +119,25 @@ ul li:hover{
     margin-left: 10px;
 }
 
+.about-content-txt3{
+  display: flex;
+}
+
+.about-content-txt3 img{
+  width: 5%;
+  height: 7%;
+  margin-left: 10px;
+}
+
+.about-content-txt4{
+  display: flex
+}
+
+.about-content-txt4 img{
+  width: 5%;
+  height: 7%;
+  margin-left: 10px;
+}
 
 .about-content-cd, .about-content-cd-cd{
     display: flex;
@@ -169,7 +188,9 @@ p{
 }
 
 
-.menu{
+
+
+.menu-txt{
     background-color: green;
     justify-content: center;
     margin-bottom: 10px;
@@ -181,11 +202,6 @@ p{
     display: flex;
     flex-wrap: wrap;
   }
-
-  .menu-description{
-    display: flex;
-  }
-  
   
   .card {
     width: var(--card-width);
@@ -196,7 +212,6 @@ p{
     align-items: center;
     perspective: 2500px;
     margin: 0 50px;
-    border: 1px solid black;
     padding: 10px 15px;
     max-width: 450px;
     gap: 12px;
@@ -357,6 +372,7 @@ button:hover{
 
 .contact-info{
   text-align: left;
+  margin-left: 50px;
 }
 
 .contact-info h3{
