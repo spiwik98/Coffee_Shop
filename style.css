@@ -466,6 +466,7 @@ button:hover{
   font-size: 2em;
   color: black;
   opacity: 0.9;
+  margin-left: 10px;
 }
 
 .social-icon a:hover{
@@ -474,7 +475,7 @@ button:hover{
 }
 
 .social-icon a:hover i{
-  color: black;
+  color: brown;
   transition: 0.5s;
 }
 
