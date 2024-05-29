@@ -6,32 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
     <title>Coffee Shop</title>
 </head>
 
 <body>
-    <nav>
+    <nav id="nav">
         <div class="logo"><img src="media/360_F_228179191_n3vmOtHDr7e8JfKf3qXFgdPso0w8ntRQ.jpg"></div>
         <ul class="nav-bar">
-            <li>Home</li>
-            <li>About</li>
-            <li>Menu</li>
-            <li>Contact</li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-        <button class="btn">Menu</button>
+        <h2><img src="media\add-to-cart.png"><span id="total-price">$0</span> <span class="remove-item">❌</span></h2>
     </nav>
     <header class="background">
         <img class="bg-image" src="media/coffee-shop-02x9a49rdcr5c18i.jpg">
     </header>
     <main>
         <!---About us Section-->
-        <div class="about">
+        <div id="about">
             <div class="about-content">
                 <h3 class="about-content-1">Who we are</h3>
                 <h2 class="about-content-2">About market</h2>
                 <p>At Coffee Haven, our market offers premium coffee beans, artisanal goods, and unique accessories.
-                    Discover locally sourced products and handcrafted items to enhance your coffee experience. Find the
-                    perfect blend or a thoughtful gift right here.</p>
+                    Discover locally sourced products and handcrafted items to enhance your coffee experience.</p>
             </div>
             <div class="about-content-cd">
                 <div class="about-content-cd-1">
@@ -39,142 +41,385 @@
                         <h3>The best World sorts</h3>
                         <img src="media/coffee-beans.png" width="20px">
                     </div>
-                    <p>Discover the best coffees in the world, each with a unique flavor. Ethiopian Arabica is smooth and fruity, while African Robusta is strong and nutty. Jamaican Blue Mountain is known for its mild taste, and Hawaiian Kona offers a clean, fruity aroma.</p>
+                    <p>Discover the best coffees in the world, each with a unique flavor. Ethiopian Arabica is smooth
+                        and fruity, while African Robusta is strong and nutty. Jamaican Blue Mountain is known for its
+                        mild taste, and Hawaiian Kona offers a clean, fruity aroma.</p>
                 </div>
                 <div class="about-content-cd-2">
                     <div class="about-content-txt2">
                         <h3>Professional barists</h3>
-                        <img src="media/barista (1).png"/>
+                        <img src="media/barista (1).png" />
                     </div>
-                    <p>Our baristas are highly trained professionals with a deep understanding of coffee from bean to cup. They have mastered the art of brewing and are knowledgeable about the different coffee varieties, regions, and flavor profiles.</p>
+                    <p>Our baristas are highly trained professionals with a deep understanding of coffee from bean to
+                        cup. They have mastered the art of brewing and are knowledgeable about the different coffee
+                        varieties, regions, and flavor profiles.</p>
                 </div>
             </div>
             <div class="about-content-cd-cd">
                 <div class="about-content-cd3">
                     <div class="about-content-txt3">
                         <h3>Many points of sale</h3>
-                        <img src="media/coffee-shop.png"/>
+                        <img src="media/coffee-shop.png" />
                     </div>
-                    <p>With numerous locations, our coffee shop ensures you can enjoy our premium coffee wherever you are. Each outlet maintains the same high standards of quality and service, making sure your coffee experience is consistently excellent.</p>
+                    <p>With numerous locations, our coffee shop ensures you can enjoy our premium coffee wherever you
+                        are. Each outlet maintains the same high standards of quality and service, making sure your
+                        coffee experience is consistently excellent.</p>
                 </div>
                 <div class="about-content-cd-4">
                     <div class="about-content-txt4">
                         <h3>24/7 fast delivery</h3>
-                        <img src="media/delivery.png"/>     
+                        <img src="media/delivery.png" />
                     </div>
-                    <p>Whether it's early morning or late at night, our fast delivery service operates 24/7 to fulfill your coffee cravings whenever they strike. Enjoy the convenience of having premium coffee delivered to you at any hour of the day.</p>
+                    <p>Whether it's early morning or late at night, our fast delivery service operates 24/7 to fulfill
+                        your coffee cravings whenever they strike. Enjoy the convenience of having premium coffee
+                        delivered to you at any hour of the day.</p>
                 </div>
             </div>
         </div>
         <!--Logos-->
         <div class="logos">
             <div class="logos-slide">
-                <img src="media/pngwing.com.png"/>
-                <img src="media/pngwing.com (1).png"/>
-                <img src="media/pngwing.com (2).png"/>
-                <img src="media/pngwing.com (3).png"/>
-                <img src="media/pngwing.com (4).png"/>
-                <img src="media/pngwing.com (5).png"/>
-                <img src="media/pngwing.com (6).png"/>
+                <img src="media/pngwing.com.png" />
+                <img src="media/pngwing.com (1).png" />
+                <img src="media/pngwing.com (2).png" />
+                <img src="media/pngwing.com (3).png" />
+                <img src="media/pngwing.com (4).png" />
+                <img src="media/pngwing.com (5).png" />
+                <img src="media/pngwing.com (6).png" />
             </div>
             <div class="logos-slide">
-                <img src="media/pngwing.com.png"/>
-                <img src="media/pngwing.com (1).png"/>
-                <img src="media/pngwing.com (2).png"/>
-                <img src="media/pngwing.com (3).png"/>
-                <img src="media/pngwing.com (4).png"/>
-                <img src="media/pngwing.com (5).png"/>
-                <img src="media/pngwing.com (6).png"/>
+                <img src="media/pngwing.com.png" />
+                <img src="media/pngwing.com (1).png" />
+                <img src="media/pngwing.com (2).png" />
+                <img src="media/pngwing.com (3).png" />
+                <img src="media/pngwing.com (4).png" />
+                <img src="media/pngwing.com (5).png" />
+                <img src="media/pngwing.com (6).png" />
             </div>
         </div>
-        <!---Menu-->
-        <h1 class="menu-txt">Menu</h1>
-        <div class="menu-card-container">
-            <div class="card">
-                <div class="img"></div>
-                <div class="content">
-                    <div class="review-container">
-                        <div class="stars">
-                            <span>Reviews</span>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
+        <!--Menu-->
+        <div id="menu">
+            <h1 class="menu-txt">Menu</h1>
+            <div class="menu-card-container">
+                <div class="card">
+                    <img src="media/ROASTAINS-PACZKA-ESPRESSO-BRAZIL-MILKY-CLOUD-1kg.jpg" />
+                    <div class="content">
+                        <div class="review-container">
+                            <div class="stars">
+                                <span>Reviews</span>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <h5 class="price">$ 123</h5>
-                <h4 class="name">Product Name</h4>
-                <div class="description">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis est tempore sed eligendi possimus error blanditiis aliquid, porro nulla provident delectus! Et, dolorem? Maxime, accusamus dicta labore dolorum cum nihil!</p>
-                </div>
-                <div class="button-container">
-                    <div class="card-button">
-                        <p>Add to cart</p>
-                        <div class="cart-icon">
-                            <i class="fa fa-shopping-cart"></i>
-                        </div>
+                    <h5 class="price">$123</h5>
+                    <h4 class="name">Product Name</h4>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis est tempore sed eligendi
+                            possimus error blanditiis aliquid, porro nulla provident delectus! Et, dolorem? Maxime,
+                            accusamus dicta labore dolorum cum nihil!</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="addtocart">
+                            <div class="pretext">
+                                <i class="fas fa-cart-plus"></i> ADD TO CART
+                            </div>
+                            <div class="pretext done">
+                                <div class="posttext"><i class="fas fa-check"></i> ADDED</div>
+                            </div>
+                        </button>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <div class="img"></div>
-                <div class="content">
-                    <div class="review-container">
-                        <div class="stars">
-                            <span>Reviews</span>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
+                <div class="card">
+                    <img src="media/ROASTAINS-PACZKA-FILTER-1kg-MEXICO.jpg" />
+                    <div class="content">
+                        <div class="review-container">
+                            <div class="stars">
+                                <span>Reviews</span>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <h5 class="price">$ 123</h5>
-                <h4 class="name">Product Name</h4>
-                <div class="description">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis est tempore sed eligendi possimus error blanditiis aliquid, porro nulla provident delectus! Et, dolorem? Maxime, accusamus dicta labore dolorum cum nihil!</p>
-                </div>
-                <div class="button-container">
-                    <div class="card-button">
-                        <p>Add to cart</p>
-                        <div class="cart-icon">
-                            <i class="fa fa-shopping-cart"></i>
-                        </div>
+                    <h5 class="price">$123</h5>
+                    <h4 class="name">Product Name</h4>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis est tempore sed eligendi
+                            possimus error blanditiis aliquid, porro nulla provident delectus! Et, dolorem? Maxime,
+                            accusamus dicta labore dolorum cum nihil!</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="addtocart">
+                            <div class="pretext">
+                                <i class="fas fa-cart-plus"></i> ADD TO CART
+                            </div>
+                            <div class="pretext done">
+                                <div class="posttext"><i class="fas fa-check"></i> ADDED</div>
+                            </div>
+                        </button>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <div class="img"></div>
-                <div class="content">
-                    <div class="review-container">
-                        <div class="stars">
-                            <span>Reviews</span>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
+                <div class="card">
+                    <img src="media/file.png" />
+                    <div class="content">
+                        <div class="review-container">
+                            <div class="stars">
+                                <span>Reviews</span>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
                         </div>
                     </div>
+                    <h5 class="price">$123</h5>
+                    <h4 class="name">Product Name</h4>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis est tempore sed eligendi
+                            possimus error blanditiis aliquid, porro nulla provident delectus! Et, dolorem? Maxime,
+                            accusamus dicta labore dolorum cum nihil!</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="addtocart">
+                            <div class="pretext">
+                                <i class="fas fa-cart-plus"></i> ADD TO CART
+                            </div>
+                            <div class="pretext done">
+                                <div class="posttext"><i class="fas fa-check"></i> ADDED</div>
+                            </div>
+                        </button>
+                    </div>
                 </div>
-                <h5 class="price">$ 123</h5>
-                <h4 class="name">Product Name</h4>
-                <div class="description">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis est tempore sed eligendi possimus error blanditiis aliquid, porro nulla provident delectus! Et, dolorem? Maxime, accusamus dicta labore dolorum cum nihil!</p>
-                </div>
-                <div class="button-container">
-                    <div class="card-button">
-                        <p>Add to cart</p>
-                        <div class="cart-icon">
-                            <i class="fa fa-shopping-cart"></i>
+                <div class="card">
+                    <img src="media/ROASTAINS-PACZKA-ESPRESSO-COLOMBIA-FLYING-BUDDY-1kg.jpg" />
+                    <div class="content">
+                        <div class="review-container">
+                            <div class="stars">
+                                <span>Reviews</span>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
                         </div>
+                    </div>
+                    <h5 class="price">$123</h5>
+                    <h4 class="name">Product Name</h4>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis est tempore sed eligendi
+                            possimus error blanditiis aliquid, porro nulla provident delectus! Et, dolorem? Maxime,
+                            accusamus dicta labore dolorum cum nihil!</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="addtocart">
+                            <div class="pretext">
+                                <i class="fas fa-cart-plus"></i> ADD TO CART
+                            </div>
+                            <div class="pretext done">
+                                <div class="posttext"><i class="fas fa-check"></i> ADDED</div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="media/ROASTAINS-PACZKA-FILTER-1kg-KENYA-RED-FIZZ.jpg" />
+                    <div class="content">
+                        <div class="review-container">
+                            <div class="stars">
+                                <span>Reviews</span>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <h5 class="price">$123</h5>
+                    <h4 class="name">Product Name</h4>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis est tempore sed eligendi
+                            possimus error blanditiis aliquid, porro nulla provident delectus! Et, dolorem? Maxime,
+                            accusamus dicta labore dolorum cum nihil!</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="addtocart">
+                            <div class="pretext">
+                                <i class="fas fa-cart-plus"></i> ADD TO CART
+                            </div>
+                            <div class="pretext done">
+                                <div class="posttext"><i class="fas fa-check"></i> ADDED</div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="media/ROASTAINS-PACZKA-ESPRESSO-GUATEMALA-ESCOGIDO-1kg.jpg" />
+                    <div class="content">
+                        <div class="review-container">
+                            <div class="stars">
+                                <span>Reviews</span>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <h5 class="price">$123</h5>
+                    <h4 class="name">Product Name</h4>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis est tempore sed eligendi
+                            possimus error blanditiis aliquid, porro nulla provident delectus! Et, dolorem? Maxime,
+                            accusamus dicta labore dolorum cum nihil!</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="addtocart">
+                            <div class="pretext">
+                                <i class="fas fa-cart-plus"></i> ADD TO CART
+                            </div>
+                            <div class="pretext done">
+                                <div class="posttext"><i class="fas fa-check"></i> ADDED</div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="media/ROASTAINS-PACZKA-ESPRESSO-BRAZIL-MILKY-CLOUD-1kg.jpg" />
+                    <div class="content">
+                        <div class="review-container">
+                            <div class="stars">
+                                <span>Reviews</span>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <h5 class="price">$123</h5>
+                    <h4 class="name">Product Name</h4>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis est tempore sed eligendi
+                            possimus error blanditiis aliquid, porro nulla provident delectus! Et, dolorem? Maxime,
+                            accusamus dicta labore dolorum cum nihil!</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="addtocart">
+                            <div class="pretext">
+                                <i class="fas fa-cart-plus"></i> ADD TO CART
+                            </div>
+                            <div class="pretext done">
+                                <div class="posttext"><i class="fas fa-check"></i> ADDED</div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="media/ROASTAINS-PACZKA-FILTER-1kg-MEXICO.jpg" />
+                    <div class="content">
+                        <div class="review-container">
+                            <div class="stars">
+                                <span>Reviews</span>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <h5 class="price">$123</h5>
+                    <h4 class="name">Product Name</h4>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis est tempore sed eligendi
+                            possimus error blanditiis aliquid, porro nulla provident delectus! Et, dolorem? Maxime,
+                            accusamus dicta labore dolorum cum nihil!</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="addtocart">
+                            <div class="pretext">
+                                <i class="fas fa-cart-plus"></i> ADD TO CART
+                            </div>
+                            <div class="pretext done">
+                                <div class="posttext"><i class="fas fa-check"></i> ADDED</div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="media/ROASTAINS-PACZKA-ESPRESSO-HONDURAS-HAZELSTRIKE-1kg.jpg" />
+                    <div class="content">
+                        <div class="review-container">
+                            <div class="stars">
+                                <span>Reviews</span>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <h5 class="price">$123</h5>
+                    <h4 class="name">Product Name</h4>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis est tempore sed eligendi
+                            possimus error blanditiis aliquid, porro nulla provident delectus! Et, dolorem? Maxime,
+                            accusamus dicta labore dolorum cum nihil!</p>
+                    </div>
+                    <div class="button-container">
+                        <button class="addtocart">
+                            <div class="pretext">
+                                <i class="fas fa-cart-plus"></i> ADD TO CART
+                            </div>
+                            <div class="pretext done">
+                                <div class="posttext"><i class="fas fa-check"></i> ADDED</div>
+                            </div>
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
+
+
+        <!--Contact-->
+
+        <div id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-form">
+                        <h3>Send us a message</h3>
+                        <form>
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Your Email">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" placeholder="Your Message"></textarea>
+                            </div>
+                            <button type="submit">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p><i class="fas fa-phone"></i> 123 456 789</p>
+                        <p><i class="fas fa-envelope"></i>coffeshop@email.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i>455 Short Street, London, England</p>
     </main>
     <!--Footer-->
     <footer>
@@ -189,10 +434,10 @@
                 </div>
                 <div class="footer-navigation">
                     <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Menu</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="#nav">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-btm">
@@ -201,6 +446,58 @@
             </div>
         </div>
     </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const cardButtons = document.querySelectorAll('.card-button');
+            const totalPriceElement = document.getElementById('total-price');
+            let totalPrice = 0;
+
+            cardButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const price = parseFloat(button.parentElement.querySelector('.price').innerText.replace('$', ''));
+                    totalPrice += price;
+                    totalPriceElement.innerText = `$${totalPrice.toFixed(2)}`;
+                });
+            });
+
+            const removeButtons = document.querySelectorAll('.remove-item');
+
+            removeButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    totalPrice = 0; // Reset total price to 0
+                    totalPriceElement.innerText = `$${totalPrice.toFixed(2)}`;
+                });
+            });
+
+            const addToCartButtons = document.querySelectorAll('.addtocart');
+
+            addToCartButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const done = button.querySelector('.pretext.done');
+                    if (done) {
+                        if (button.classList.contains('added')) {
+                            // Usuń produkt z koszyka
+                            button.classList.remove('added');
+                            done.style.transform = "translate(-110%) skew(-40deg)";
+                            // Odejmij cenę produktu z całkowitej ceny
+                            const price = parseFloat(button.parentElement.parentElement.querySelector('.price').innerText.replace('$', ''));
+                            totalPrice -= price;
+                            totalPriceElement.innerText = `$${totalPrice.toFixed(2)}`;
+                        } else {
+                            // Dodaj produkt do koszyka
+                            button.classList.add('added');
+                            done.style.transform = "translate(0px)";
+                            // Dodaj cenę produktu do całkowitej ceny
+                            const price = parseFloat(button.parentElement.parentElement.querySelector('.price').innerText.replace('$', ''));
+                            totalPrice += price;
+                            totalPriceElement.innerText = `$${totalPrice.toFixed(2)}`;
+                        }
+                    }
+                });
+            });
+        });
+
+    </script>
 </body>
 
 </html>
